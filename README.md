@@ -165,7 +165,7 @@ RewriteRule ^(.*)$ index.php/$1 [NC,L,QSA]
 
 PS. Make sure that `mod_rewrite ` is enabled.
 
-###Nginx
+### Nginx
 Find nginx config file, and add following code to `server` section.
 
 ```
